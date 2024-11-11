@@ -1,0 +1,44 @@
+/* 自定義樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* 頁首樣式 */
+header {
+    background: #343a40;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* 技能區域卡片 */
+.card {
+    margin-bottom: 30px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+/* 項目展示區域 */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 聯繫我區域社交圖示 */
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
